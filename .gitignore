@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Rust/Tauri
+.cargo/
+.rustup/
+src-tauri/target/
+src-tauri/gen/
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+.dictation-lab/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
